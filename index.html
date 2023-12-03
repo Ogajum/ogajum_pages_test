@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang = "ja">
+ 
+ <head>
+  <meta charset="utf-8">
+  <title>indexページ</title>
+ </head>
+ 
+ <body>
+  <div id="header"></div> 
+  <main>
+   <p>index.htmlの内容</p>
+  </main>
+
+  <script>
+   fetch("parts/header.html")
+   .then((response) => response.text())
+   .then((data) => document.querySelector("#header").innerHTML = data);
+  </script>
+  
+ </body>
+ 
+</html>
