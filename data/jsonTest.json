@@ -1,12 +1,12 @@
 [
     {
-        "name":"name1",
-        "icon":"icon1",
-        "image":"image1"
+        "name":"name0",
+        "icon_index":0,
+        "introduction_image":"image0.jpg"
     },
     {
-        "name":"name2",
-        "icon":"icon2",
-        "image":"image2"
+        "name":"name1",
+        "icon_index":1,
+        "introduction_image":"image1.jpg"
     }
 ]
